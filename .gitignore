@@ -1,0 +1,128 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.env.local
+
+# Environment secrets
+.env
+*.env
+*.env.*
+!.env.example
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+MANIFEST
+.eggs/
+wheels/
+
+# Testing & coverage
+.pytest_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+*.lcov
+nosetests.xml
+test-results/
+junit.xml
+
+# Type checkers
+.mypy_cache/
+.pytype/
+.pyre/
+.dmypy.json
+dmypy.json
+
+# Linters
+.ruff_cache/
+
+# IDEs
+# JetBrains
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+# VS Code
+.vscode/
+*.code-workspace
+# Vim / Neovim
+*.swp
+*.swo
+*.swn
+*~
+.netrwhist
+Session.vim
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# OS artefacts
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+# Linux
+.directory
+.Trash-*
+
+# Docker
+docker-compose.override.yml
+docker-compose.local.yml
+
+# Google Colab CLI credentials
+.config/colab-cli/
+colab-cli-credentials.json
+credentials.json
+token.json
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+*.orig
+*.pid
+
+# Pillow / ffmpeg temporary conversion files
+/tmp/ignat_*.json
+/tmp/ignat_*.mp4
+/tmp/ignat_*.webm
+/tmp/ignat_*.gif
+
+# assets
+# stickers.json

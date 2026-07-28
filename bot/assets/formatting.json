@@ -1,0 +1,26 @@
+{
+  "bold": {
+    "open": "<b>",
+    "close": "</b>"
+  },
+  "italic": {
+    "open": "<i>",
+    "close": "</i>"
+  },
+  "code": {
+    "open": "<code>",
+    "close": "</code>"
+  },
+  "strike": {
+    "open": "<s>",
+    "close": "</s>"
+  },
+  "underline": {
+    "open": "<u>",
+    "close": "</u>"
+  },
+  "spoiler": {
+    "open": "<tg-spoiler>",
+    "close": "</tg-spoiler>"
+  }
+}

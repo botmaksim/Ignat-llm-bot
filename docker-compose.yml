@@ -1,0 +1,15 @@
+services:
+  orchestrator_bot:
+    build: .
+    container_name: telegram_orchestrator
+    restart: always
+    env_file:
+      - .env
+    environment:
+      LOG_FORMAT: json
+      LOG_LEVEL: INFO
+    volumes:
+      # Application code (for development hot-reload)
+      - .:/app
+      # Colab CLI session tokens — persisted across container restarts
+      - ${HOME}/.config/colab-cli:/root/.config/colab-cli:ro
